@@ -53,10 +53,23 @@ p {
     font-weight: 300;
 }
 
-
-.carousel-inner {
-    height: 50vh;
+@media (max-width: 768px) {
+    .carousel-inner {
+        height: 20vh;
+    }
 }
+
+@media (min-width: 768px) {
+    .carousel-inner {
+        height: 30vh;
+    }
+}
+@media (min-width: 1199.98px) {
+    .carousel-inner {
+        height: 50vh;
+    }
+}
+
 
 .card {
     width: 300px;
