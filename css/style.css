@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Sansation';
+    src: url('../fonts/Sansation-Regular.woff2') format('woff2'),
+    url('../fonts/Sansation-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sansation';
+    src: url('../fonts/Sansation-Light.woff2') format('woff2'),
+    url('../fonts/Sansation-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sansation';
+    src: url('../fonts/Sansation-Bold.woff2') format('woff2'),
+    url('../fonts/Sansation-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+p {
+    font-family: 'Sansation', serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media (max-width: 768px) {
+    .about {
+        font-size: 15vw;
+    }
+}
+@media (min-width: 768px) {
+    .about {
+        font-size: 6rem;
+    }
+}
+.mineplacefont {
+    font-family: 'Sansation', serif;
+    font-weight: normal;
+    font-style: normal;
+}
+.bold {
+    font-weight: bold;
+}
+.light {
+    font-weight: 300;
+}
+
+
+.carousel-inner {
+    height: 50vh;
+}
+
+.card {
+    width: 300px;
+    margin: auto;
+    margin-top: 10px;
+}
+.nav-link {
+    position: relative;
+}
+.nav-link::after {
+    content: "";
+    background-color: #266E96;
+    bottom: .1rem;
+    height: .2rem;
+    left: 0;
+    position: absolute;
+    width: 0;
+    transition: width 0.3s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+    transition: width 0.5s;
+}
+
+.liner {
+    position: relative;
+}
+.liner::before {
+    content: "";
+    background-color: #266E96;
+    bottom: -0.15rem;
+    height: .2rem;
+    position: absolute;
+    width: 90px;
+}
+.b-shadow {
+    -webkit-box-shadow: 0 6px 20px 9px rgba(0,0,0,0.3);
+    box-shadow: 0 6px 20px 9px rgba(0,0,0,0.3);
+}
