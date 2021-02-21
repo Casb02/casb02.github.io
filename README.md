@@ -1,2 +1,1 @@
-# casb02.github.io 
-Currently Mineplace Website
+# mineplace-website
